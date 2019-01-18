@@ -85,4 +85,12 @@ class Calculator {
         return (lhs.0 - rhs.0, lhs.1 - rhs.1)
     }
     
+    func add (lhs: [String:Int], rhs: [String:Int]) -> [String:Int] {
+        return ["x": lhs["x"]! + rhs["x"]!, "y": lhs["y"]! + rhs["y"]!]
+    }
+    
+    func subtract (lhs: [String:Int], rhs: [String:Int]) -> [String:Int] {
+        return ["x": lhs["x"]! - rhs["x"]!, "y": lhs["y"]! - rhs["y"]!]
+    }
+    
 }
