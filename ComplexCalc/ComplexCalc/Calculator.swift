@@ -92,5 +92,4 @@ class Calculator {
     func subtract (lhs: [String:Int], rhs: [String:Int]) -> [String:Int] {
         return ["x": lhs["x"]! - rhs["x"]!, "y": lhs["y"]! - rhs["y"]!]
     }
-    
 }
